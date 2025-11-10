@@ -43,6 +43,24 @@
         .cta:hover {
             background: #6750A4;
         }
+        /* Animation for feature and about sections */
+        .features-section, .about {
+            opacity: 0;
+            transform: translateY(40px);
+            animation: fadeInUp 1.2s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+        }
+        .features-section {
+            animation-delay: 0.2s;
+        }
+        .about {
+            animation-delay: 0.7s;
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
         .features-section {
             margin-top: 32px;
             background: #f7f7f7;
@@ -132,4 +150,5 @@
         &copy; 2025 Spendalyzer. All rights reserved.
     </footer>
 </body>
+</html>
 
