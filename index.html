@@ -13,12 +13,12 @@
             padding: 0;
         }
         .container {
-            max-width: 480px;
-            margin: 80px auto;
+            max-width: 540px;
+            margin: 60px auto 0 auto;
             background: #fff;
             border-radius: 16px;
             box-shadow: 0 8px 32px rgba(0,0,0,0.12);
-            padding: 40px 32px;
+            padding: 40px 32px 24px 32px;
             text-align: center;
         }
         h1 {
@@ -38,17 +38,46 @@
             text-decoration: none;
             font-weight: bold;
             transition: background 0.2s;
+            margin-bottom: 24px;
         }
         .cta:hover {
             background: #6750A4;
         }
+        .features-section {
+            margin-top: 32px;
+            background: #f7f7f7;
+            border-radius: 12px;
+            padding: 24px;
+            color: #333;
+            text-align: left;
+        }
+        .features-section h2 {
+            color: #6750A4;
+            margin-bottom: 12px;
+        }
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 16px 0;
+        }
+        .features-list li {
+            margin-bottom: 16px;
+            font-size: 1.08em;
+            display: flex;
+            align-items: flex-start;
+        }
+        .icon {
+            font-size: 1.5em;
+            margin-right: 12px;
+        }
         .about {
-            margin-top: 40px;
+            margin-top: 32px;
             background: #f7f7f7;
             border-radius: 12px;
             padding: 24px;
             color: #333;
             font-size: 1em;
+            text-align: left;
         }
         .about h2 {
             color: #6750A4;
@@ -56,6 +85,13 @@
         }
         .about p {
             margin: 4px 0;
+        }
+        .about a {
+            color: #BB86FC;
+            text-decoration: none;
+        }
+        .about a:hover {
+            text-decoration: underline;
         }
         footer {
             margin-top: 40px;
@@ -76,6 +112,48 @@
             Stay tuned for our launch!
         </p>
         <a href="#" class="cta">Notify Me</a>
+        <div class="features-section">
+            <h2>Why Choose Spendalyzer?</h2>
+            <p>
+                Spendalyzer helps you take control of your finances by automatically detecting and tracking your expenses from SMS notifications. The app intelligently parses your transaction messages, categorizes your spending, and presents clear visual summaries using pie charts and category lists.
+            </p>
+            <ul class="features-list">
+                <li>
+                    <span class="icon">💡</span>
+                    <strong>Automatic expense detection from SMS</strong> <br>
+                    (debit, purchase, payment, UPI, etc.)
+                </li>
+                <li>
+                    <span class="icon">📊</span>
+                    <strong>Smart categorization</strong> <br>
+                    for easy analysis
+                </li>
+                <li>
+                    <span class="icon">🎨</span>
+                    <strong>Visual summaries</strong> <br>
+                    with color-coded charts and lists
+                </li>
+                <li>
+                    <span class="icon">🔔</span>
+                    <strong>Notifications</strong> <br>
+                    for new transactions
+                </li>
+                <li>
+                    <span class="icon">🔗</span>
+                    <strong>Bluetooth sync</strong> <br>
+                    Share or receive transactions with a partner device
+                </li>
+                <li>
+                    <span class="icon">🌗</span>
+                    <strong>Dark and light mode support</strong> <br>
+                    for comfortable viewing
+                </li>
+            </ul>
+            <p>
+                Spendalyzer is designed for privacy and ease of use. Just install and start tracking your expenses effortlessly.<br>
+                Perfect for anyone who wants to understand their spending habits and make smarter financial decisions.
+            </p>
+        </div>
         <div class="about">
             <h2>About Me</h2>
             <p>Hariom Maurya</p>
